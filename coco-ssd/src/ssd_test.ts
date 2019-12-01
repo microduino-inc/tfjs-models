@@ -17,9 +17,11 @@
 import * as tfconv from '@tensorflow/tfjs-converter';
 import * as tf from '@tensorflow/tfjs-core';
 import {describeWithFlags, NODE_ENVS} from '@tensorflow/tfjs-core/dist/jasmine_util';
-import {expectArrayBuffersEqual} from '@tensorflow/tfjs-core/dist/test_util';
+// import {expectArrayBuffersEqual} from '@tensorflow/tfjs-core/dist/test_util';
 
 import {load} from './index';
+
+const BASE_PATH = 'https://mproxy.microduino.cn/static/ai/coco-ssd/';
 
 describeWithFlags('ObjectDetection', NODE_ENVS, () => {
   beforeEach(() => {
@@ -56,8 +58,7 @@ describeWithFlags('ObjectDetection', NODE_ENVS, () => {
 
     expect(tfconv.loadGraphModel)
         .toHaveBeenCalledWith(
-            'https://storage.googleapis.com/tfjs-models/' +
-            'savedmodel/ssd_mobilenet_v1/model.json');
+            BASE_PATH + 'ssd_mobilenet_v1/model.json');
   });
 
   it('should allow custom model url', async () => {

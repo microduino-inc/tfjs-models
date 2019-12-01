@@ -1,6 +1,6 @@
 {
-  "name": "@tensorflow-models/posenet",
-  "version": "2.2.0",
+  "name": "@microduino/tf-posenet",
+  "version": "1.0.3-alpha",
   "description": "Pretrained PoseNet model in TensorFlow.js",
   "main": "dist/index.js",
   "jsnext:main": "dist/posenet.esm.js",

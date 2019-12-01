@@ -1,6 +1,6 @@
 {
-  "name": "@tensorflow-models/coco-ssd",
-  "version": "2.0.0",
+  "name": "@microduino/tf-coco-ssd",
+  "version": "1.0.3-alpha",
   "description": "Object detection model (coco-ssd) in TensorFlow.js",
   "main": "dist/index.js",
   "unpkg": "dist/coco-ssd.min.js",

@@ -20,7 +20,8 @@ import * as tf from '@tensorflow/tfjs-core';
 
 import {CLASSES} from './classes';
 
-const BASE_PATH = 'https://storage.googleapis.com/tfjs-models/savedmodel/';
+// const BASE_PATH = 'https://storage.googleapis.com/tfjs-models/savedmodel/';
+const BASE_PATH = 'https://mproxy.microduino.cn/static/ai/coco-ssd/';
 
 export {version} from './version';
 

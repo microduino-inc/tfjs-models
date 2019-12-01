@@ -15,10 +15,15 @@
  * =============================================================================
  */
 
+// const MOBILENET_BASE_URL =
+//     'https://storage.googleapis.com/tfjs-models/savedmodel/posenet/mobilenet/';
+// const RESNET50_BASE_URL =
+//     'https://storage.googleapis.com/tfjs-models/savedmodel/posenet/resnet50/';
+
 const MOBILENET_BASE_URL =
-    'https://storage.googleapis.com/tfjs-models/savedmodel/posenet/mobilenet/';
+    'https://mproxy.microduino.cn/static/ai/posenet2/mobilenet/';
 const RESNET50_BASE_URL =
-    'https://storage.googleapis.com/tfjs-models/savedmodel/posenet/resnet50/';
+    'https://mproxy.microduino.cn/static/ai/posenet2/resnet50/';
 
 // The PoseNet 2.0 ResNet50 models use the latest TensorFlow.js 1.0 model
 // format.
