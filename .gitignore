@@ -13,3 +13,5 @@ clone/
 .rpt2_cache/
 
 *.pyc
+
+.idea/

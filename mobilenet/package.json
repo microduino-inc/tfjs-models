@@ -1,6 +1,6 @@
 {
-  "name": "@tensorflow-models/mobilenet",
-  "version": "2.0.4",
+  "name": "@microduino/tf-mobilenet",
+  "version": "1.0.3-alpha",
   "description": "Pretrained MobileNet in TensorFlow.js",
   "main": "dist/index.js",
   "unpkg": "dist/mobilenet.min.js",
